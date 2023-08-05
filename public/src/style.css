@@ -1,0 +1,256 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(249.38deg 48.48% 12.94% / 83%);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+}
+
+code {
+    color: #8ca2e3;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    margin-bottom: -6rem;
+}
+
+.info {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* CLASES HEADER */
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    padding: 10px;
+}
+
+.header__title {
+    text-align: left;
+}
+
+.header__nav {
+    text-align: right;
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav__item:hover {
+    background-color: #bcc6ff4d;
+}
+
+.nav__item a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+/* CLASES SECTION ACTIVIDAD */
+
+.activity {
+    margin: 1.5rem 0;
+    padding: 3rem 0;
+}
+
+.activity__title {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.activity__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+
+.activity__image,
+.about__image {
+    display: flex;
+    justify-content: center;
+}
+
+.activity__image img {
+    width: 300px;
+    height: 300px;
+}
+
+.activity__text p,
+.selectedTheme__column p {
+    line-height: 1.7;
+}
+
+/* CLASES TEMA */
+
+.selectedTheme,
+.mainContent {
+    padding: 3rem 0;
+}
+
+.selectedTheme__title {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.selectedTheme__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.selectedTheme__column {
+    text-align: left;
+}
+
+.selectedTheme__subtitle {
+    margin-top: 0;
+}
+
+.selectedTheme__image {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+}
+
+/* CLASES SECTION CONTENIDO */
+
+.content {
+    padding-bottom: 3rem;
+}
+
+.content__subtitle {
+    text-align: center;
+}
+
+.content__text {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.content__columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.content__column {
+    padding: 1rem;
+}
+
+.content__image {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+}
+
+.content__code {
+    background-color: #41474a;
+    padding: 1rem;
+}
+
+.content__code-text {
+    font-size: 1rem;
+}
+
+/* CLASES SECTION MOCKUP */
+
+.mockup {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.mockup__title {
+    text-align: center;
+}
+
+.mockup__content {
+    display: flex;
+    justify-content: center;
+}
+
+.mockup__image {
+    width: 80%;
+    height: auto;
+}
+
+/* CLASES SECTION FOOTER */
+
+.about {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+}
+
+.about__subtitle {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about__image {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.about__column .info {
+    margin-top: 3.4rem;
+}
+
+.info {
+    text-align: center;
+}

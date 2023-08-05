@@ -4,7 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -17,7 +16,7 @@ function App() {
         </a>
       </div>
       <h3> Bienvenidos </h3>
-      <h3>Diseño de sitios Wed</h3>
+      <h3>Diseño de sitios Web</h3>
       <h1>TRABAJO FINAL-FASE 5 </h1>
       <div className="card">
         <h2>Integrandes</h2>
@@ -25,11 +24,8 @@ function App() {
         <h3> Sindy Lorena Rosada </h3>
 
         <h2> Enlace al proyecto </h2>
-        <a href="inicio">click para ir al proyecto</a>
+        <a href="inicio.html">click para ir al proyecto</a>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
