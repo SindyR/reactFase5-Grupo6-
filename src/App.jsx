@@ -25,7 +25,7 @@ function App() {
         <h3> Sindy Lorena Rosada </h3>
 
         <h2> Enlace al proyecto </h2>
-        <a href="index.html">click para ir al proyecto</a>
+        <a href="inicio">click para ir al proyecto</a>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
